@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="zxx">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="description" content="Videograph Template" />
+        <meta name="keywords" content="Videograph, unica, creative, html" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>SzeneAktiv</title>
+
+        <link
+            rel="shortcut icon"
+            href="img/logo/favicon.ico"
+            type="image/x-icon"
+        />
+
+        <!-- Google Font -->
+        <link
+            href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Css Styles -->
+        <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
+        <link
+            rel="stylesheet"
+            href="css/font-awesome.min.css"
+            type="text/css"
+        />
+        <link rel="stylesheet" href="css/elegant-icons.css" type="text/css" />
+        <link
+            rel="stylesheet"
+            href="css/owl.carousel.min.css"
+            type="text/css"
+        />
+        <link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
+        <link rel="stylesheet" href="css/slicknav.min.css" type="text/css" />
+        <link rel="stylesheet" href="css/style.css" type="text/css" />
+        <style>
+            .highlighted-btn {
+                background-color: #201575; /* Highlight color */
+                color: white;
+                padding: 10px 20px;
+                text-transform: uppercase;
+                border-radius: 5px;
+                text-decoration: none;
+                font-weight: bold;
+                position: relative;
+                z-index: 10;
+            }
+
+            .highlighted-btn:hover {
+                background-color: #e64a19;
+            }
+
+            .highlighted-btn:hover {
+                background-color: #e64a19;
+            }
+
+            .blog__item {
+                position: relative;
+                overflow: hidden;
+            }
+
+            .blog__item h4,
+            p {
+                position: relative;
+                z-index: 10;
+            }
+
+            .blog__item:hover {
+                border: 1px solid transparent !important;
+                background-size: cover;
+            }
+
+            .blog__item:hover::after {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: rgba(0, 0, 0, 0.5); /* Darkness effect */
+                z-index: 1;
+            }
+
+            .blog__item:hover .read-more-btn {
+                z-index: 2; /* Make sure the button stays on top of the overlay */
+            }
+        </style>
+    </head>
+
+    <body>
+        <!-- Page Preloder -->
+        <div id="preloder">
+            <div class="loader"></div>
+        </div>
+
+        <!-- Header Section Begin -->
+        <header class="header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-2">
+                        <div class="header__logo">
+                            <a href="./index.html">
+                                <h3 class="text-white">SzeneAktiv</h3>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-10">
+                        <div class="header__nav__option">
+                            <nav class="header__nav__menu mobile-menu">
+                                <ul>
+                                    <li>
+                                        <a href="index.html">Startseite</a>
+                                    </li>
+                                    <li>
+                                        <a href="about.html">Über uns</a>
+                                    </li>
+                                    <li class="active">
+                                        <a href="catalog.html">Katalog</a>
+                                    </li>
+                                    <li><a href="contact.html">Kontakt</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+                <div id="mobile-menu-wrap"></div>
+            </div>
+        </header>
+        <!-- Header End -->
+
+        <!-- Breadcrumb Begin -->
+        <div
+            class="breadcrumb-option spad set-bg"
+            data-setbg="img/breadcrumb-bg.jpg"
+        >
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <div class="breadcrumb__text">
+                            <h2>Neuigkeiten</h2>
+                            <div class="breadcrumb__links">
+                                <a href="#">Startseite</a>
+                                <span>Neuigkeiten</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Breadcrumb End -->
+
+        <!-- Blog Section Begin -->
+        <section class="blog spad">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-6">
+                        <div class="blog__item">
+                            <h4>Die Zukunft der modernen Kunst</h4>
+                            <p>
+                                Entdecken Sie die aufregendsten Trends in der
+                                modernen Kunst und wie neue Technologien die
+                                Kunstwelt revolutionieren. Erfahren Sie, wie
+                                Künstler digitale Medien nutzen, um innovative
+                                Werke zu schaffen.
+                            </p>
+                            <a
+                                href="contact.html"
+                                class="read-more-btn highlighted-btn"
+                                >Mehr erfahren</a
+                            >
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6">
+                        <div class="blog__item">
+                            <h4>
+                                Die Rolle des Sports in der heutigen
+                                Gesellschaft
+                            </h4>
+                            <p>
+                                Sport hat nicht nur einen physischen Einfluss
+                                auf den Körper, sondern auch eine tiefgreifende
+                                soziale und kulturelle Bedeutung. Erfahren Sie,
+                                wie Sportgemeinschaften weltweit zusammenbringen
+                                und die Gesellschaft stärken.
+                            </p>
+                            <a
+                                href="contact.html"
+                                class="read-more-btn highlighted-btn"
+                                >Mehr erfahren</a
+                            >
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6">
+                        <div class="blog__item">
+                            <h4>
+                                Kulturelle Ereignisse, die Sie nicht verpassen
+                                sollten
+                            </h4>
+                            <p>
+                                Diese Saison gibt es eine Vielzahl von
+                                Kulturveranstaltungen, die Sie inspirieren und
+                                fesseln werden. Von Kunstgalerien bis hin zu
+                                Theateraufführungen, erfahren Sie, welche
+                                Ereignisse Sie unbedingt besuchen sollten.
+                            </p>
+                            <a
+                                href="contact.html"
+                                class="read-more-btn highlighted-btn"
+                                >Mehr erfahren</a
+                            >
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6">
+                        <div class="blog__item">
+                            <h4>
+                                Das Aufeinandertreffen von Tradition und
+                                Innovation im Kunstbereich
+                            </h4>
+                            <p>
+                                Wie können traditionelle Kunstformen und moderne
+                                Innovationen zusammenkommen, um neue
+                                Perspektiven zu schaffen? Lesen Sie, wie die
+                                Verschmelzung von Alt und Neu kreative Grenzen
+                                erweitert.
+                            </p>
+                            <a
+                                href="contact.html"
+                                class="read-more-btn highlighted-btn"
+                                >Mehr erfahren</a
+                            >
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6">
+                        <div class="blog__item">
+                            <h4>
+                                Die Bedeutung der Kulturvermittlung für die
+                                jüngere Generation
+                            </h4>
+                            <p>
+                                Kulturvermittlung ist ein wesentlicher
+                                Bestandteil der Erziehung. Wie können wir die
+                                kommende Generation für die Schätze der Kunst
+                                und Kultur begeistern? Lesen Sie mehr darüber,
+                                wie Programme und Initiativen Kultur lebendig
+                                halten.
+                            </p>
+                            <a
+                                href="contact.html"
+                                class="read-more-btn highlighted-btn"
+                                >Mehr erfahren</a
+                            >
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6">
+                        <div class="blog__item">
+                            <h4>
+                                Sport als Mittel zur Förderung der sozialen
+                                Inklusion
+                            </h4>
+                            <p>
+                                Sport hat die Fähigkeit, Barrieren abzubauen und
+                                Menschen aus verschiedenen sozialen Schichten zu
+                                verbinden. Erfahren Sie, wie
+                                Sportveranstaltungen als Plattform für soziale
+                                Inklusion und Zusammenhalt dienen.
+                            </p>
+                            <a
+                                href="contact.html"
+                                class="read-more-btn highlighted-btn"
+                                >Mehr erfahren</a
+                            >
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6">
+                        <div class="blog__item">
+                            <h4>
+                                Die Rolle der Musik in der kulturellen Identität
+                            </h4>
+                            <p>
+                                Musik ist ein universelles Medium, das Kulturen
+                                prägt und Identität schafft. Entdecken Sie, wie
+                                Musik in verschiedenen Kulturen verwendet wird,
+                                um Traditionen zu bewahren und neue Generationen
+                                zu inspirieren.
+                            </p>
+                            <a
+                                href="contact.html"
+                                class="read-more-btn highlighted-btn"
+                                >Mehr erfahren</a
+                            >
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6">
+                        <div class="blog__item">
+                            <h4>
+                                Die Wiederbelebung traditioneller Kunsthandwerke
+                            </h4>
+                            <p>
+                                In einer zunehmend digitalen Welt gewinnen
+                                traditionelle Kunsthandwerke wieder an
+                                Bedeutung. Erfahren Sie mehr über Initiativen,
+                                die darauf abzielen, alte Handwerkstechniken zu
+                                bewahren und gleichzeitig neu zu interpretieren.
+                            </p>
+                            <a
+                                href="contact.html"
+                                class="read-more-btn highlighted-btn"
+                                >Mehr erfahren</a
+                            >
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6">
+                        <div class="blog__item">
+                            <h4>
+                                Der Einfluss von Street Art auf die moderne
+                                Kunstszene
+                            </h4>
+                            <p>
+                                Street Art hat sich zu einer der
+                                einflussreichsten Kunstformen der modernen Welt
+                                entwickelt. Lesen Sie, wie Straßenkunst von der
+                                Randerscheinung zum zentralen Element der
+                                globalen Kunstszene wurde.
+                            </p>
+                            <a
+                                href="contact.html"
+                                class="read-more-btn highlighted-btn"
+                                >Mehr erfahren</a
+                            >
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6">
+                        <div class="blog__item">
+                            <h4>
+                                Die Rolle von Sportveranstaltungen in der
+                                globalen Diplomatie
+                            </h4>
+                            <p>
+                                Internationale Sportereignisse haben nicht nur
+                                sportliche Bedeutung, sondern auch eine
+                                diplomatische Rolle. Entdecken Sie, wie Sport
+                                als Plattform für den Dialog und die
+                                Verständigung zwischen Nationen dient.
+                            </p>
+                            <a
+                                href="contact.html"
+                                class="read-more-btn highlighted-btn"
+                                >Mehr erfahren</a
+                            >
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Blog Section End -->
+
+        <!-- Call To Action Section Begin -->
+        <section class="callto spad set-bg" data-setbg="img/callto-bg.jpg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <div class="callto__text">
+                            <h2>Vereinbaren Sie einen Termin mit uns</h2>
+                            <p>
+                                Sie möchten mehr über die neuesten Entwicklungen
+                                in der Kunst, im Sport oder in der Kultur
+                                erfahren? Kontaktieren Sie uns und lassen Sie
+                                sich von unseren Experten beraten. Wir bieten
+                                maßgeschneiderte Lösungen und Einblicke für alle
+                                Interessierten.
+                            </p>
+                            <a href="contact.html">Kontakt</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Call To Action Section End -->
+
+        <!-- Footer Section Begin -->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__option">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-6">
+                            <div class="footer__option__item">
+                                <h5>Über uns</h5>
+                                <p>
+                                    Unsere Plattform für Kunst, Sport und Kultur
+                                    bietet eine umfassende Berichterstattung
+                                    über die neuesten Ereignisse und
+                                    Entwicklungen in diesen Bereichen. Wir
+                                    bieten tiefgehende Analysen, Interviews mit
+                                    prominenten Persönlichkeiten und Updates zu
+                                    aktuellen Themen, die die Welt der Kunst,
+                                    des Sports und der Kultur betreffen. Bleiben
+                                    Sie auf dem Laufenden und entdecken Sie
+                                    spannende Inhalte aus den Bereichen, die Sie
+                                    begeistern!
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-3">
+                            <div class="footer__option__item">
+                                <h5>Kontakt</h5>
+                                <ul>
+                                    <li><a href="">+491623566209</a></li>
+                                    <li>
+                                        <a href="">szene_aktiv@gmail.com</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-3">
+                            <div class="footer__option__item">
+                                <h5>Links</h5>
+                                <ul>
+                                    <li><a href="index.html">Startseite</a></li>
+                                    <li><a href="about.html">Über uns</a></li>
+                                    <li>
+                                        <a href="privacy-policy.html"
+                                            >Datenschutzerklärung</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a href="terms-of-use.html"
+                                            >Nutzungsbedingungen</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a href="business-model.html"
+                                            >Geschäftsmodell</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a href="cookie-policy.html"
+                                            >Cookie-Richtlinie</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a href="disclaimer.html">Disclaimer</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-12">
+                            <div class="footer__option__item">
+                                <h5>Newsletter</h5>
+                                <p>
+                                    Erhalten Sie die neuesten Nachrichten und
+                                    Updates aus der Welt der Kunst, des Sports
+                                    und der Kultur. Melden Sie sich an, um keine
+                                    wichtigen Entwicklungen zu verpassen!
+                                </p>
+                                <form action="thanks.html" method="get">
+                                    <input
+                                        type="text"
+                                        placeholder="Email"
+                                        id="email"
+                                        required
+                                    />
+                                    <button type="submit" id="submit">
+                                        <i class="fa fa-send"></i>
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__copyright">
+                    <div class="row">
+                        <div class="col-lg-12 text-center">
+                            <!-- Der Link zu Colorlib darf nicht entfernt werden. Das Template ist unter CC BY 3.0 lizenziert. -->
+                            <p class="footer__copyright__text">
+                                Haftungsausschluss: Die Informationen auf dieser
+                                Website dienen ausschließlich allgemeinen
+                                Informationszwecken und sind nicht als
+                                professionelle Beratung zu verstehen. Wir
+                                übernehmen keine Verantwortung für die
+                                Richtigkeit oder Vollständigkeit der Inhalte.
+                                Bitte suchen Sie bei Bedarf professionellen Rat,
+                                insbesondere bei Fragen zu rechtlichen,
+                                künstlerischen oder sportlichen Themen.
+                            </p>
+                            <!-- Der Link zu Colorlib darf nicht entfernt werden. Das Template ist unter CC BY 3.0 lizenziert. -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Footer Section End -->
+
+        <!-- Cookie banner -->
+        <div class="cookie-wrapper show">
+            <div class="cookie-header">
+                <i class="bx bx-cookie"></i>
+                <h2>Wir verwenden Cookies</h2>
+            </div>
+
+            <div class="cookie-content">
+                <p>
+                    Um dir ein besseres Nutzererlebnis zu bieten, verwendet
+                    diese Seite Cookies. Wir fokussieren uns auf aktuelle
+                    Nachrichten und Trends aus den Bereichen Kunst, Kultur und
+                    Sport. Deine Zustimmung ermöglicht es uns, deine Vorlieben
+                    besser zu verstehen und die Navigation auf der Seite zu
+                    verbessern.
+                </p>
+                <p>
+                    Weitere Informationen zu den verwendeten Cookies findest du
+                    in unserer
+                    <a href="privacy-policy.html">Datenschutzrichtlinie</a> und
+                    <a href="cookie-policy.html">Cookie-Richtlinie</a>.
+                </p>
+            </div>
+
+            <div class="cookie-buttons">
+                <button class="cookie-button" id="acceptBtn">Zustimmen</button>
+                <button class="cookie-button" id="declineBtn">Ablehnen</button>
+            </div>
+        </div>
+        <!-- End Cookie banner -->
+
+        <!-- Js Plugins -->
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.magnific-popup.min.js"></script>
+        <script src="js/mixitup.min.js"></script>
+        <script src="js/masonry.pkgd.min.js"></script>
+        <script src="js/jquery.slicknav.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/cookiebanner.js"></script>
+    </body>
+</html>

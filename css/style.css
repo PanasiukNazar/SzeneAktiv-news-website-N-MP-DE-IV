@@ -2287,3 +2287,6 @@ select {
     -o-transition: all, 0.3s;
     transition: all, 0.3s;
 }
+.page__content h1 {
+    font-size: 35px;
+}
